@@ -14,7 +14,7 @@ class Shape:
     title = 'Фигура'
     COUNT = 0
 
-    def __int__(self):
+    def __init__(self):
         self.__class__.COUNT += 1
 
     def area(self):
